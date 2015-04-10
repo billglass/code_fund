@@ -1,3 +1,9 @@
+article {
+	width: 80%;
+	margin: 0 auto;
+	/*clear: left;*/
+}
+
 nav.social_links {
 	float: left;
 	width: 40px;
@@ -10,6 +16,7 @@ nav.social_links ul {
 }
 
 .social_links ul li img {
+	position: fixed;
 	width: 40px;
 	padding-left: 20px;
 	padding-bottom: 10px;
@@ -18,5 +25,5 @@ nav.social_links ul {
 div.paychoice {
 	width: 500px;
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 100px;
 }
