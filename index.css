@@ -63,20 +63,28 @@ div.about {
 	text-indent: 25px;
 }
 
+
+
 div.mission {
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	font-family: "PT Sans Narrow", sans-serif;
 	text-align: center;
 	font-size: 3em; 
-	width: 500px;
-	margin-left: 420px;
+	width: 100%;
+	/*margin-left: 420px;*/
+	margin: 0 auto;
+}
+
+div.mission p {
+	width: 450px;
+	margin: 40px auto 30px auto;
 }
 
 #newbutton {
-	display: inline-block;
-	margin: 5px 0 35px 535px;
-	
+	width: 260px;
+	margin: 0 auto;
+	border:2px solid red;
 }
 
 .mybutton {
@@ -86,7 +94,6 @@ div.mission {
 	border-radius:28px;
 	box-shadow: 3px 3px 3px #000000;
 	display:inline-block;
-	float: left;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: "PT Sans Narrow", sans-serif;
@@ -94,6 +101,7 @@ div.mission {
 	padding: 20px;
 	text-decoration:none;
 	text-shadow: 1px 1px 1px #000000;
+	
 }
 .mybutton:hover {
 	background-color:#35898E;
