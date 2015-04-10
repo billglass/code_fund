@@ -57,12 +57,16 @@ nav ul li {
 	box-shadow: 10px 10px 5px #888888;
 	margin-top: 10px;
 	margin-left: 10px;
-	border-ra
+	border-radius: 5px;
 }
 .topmessage{
 
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 30px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+
 }
 
 .title{
@@ -105,7 +109,7 @@ nav ul li {
 
 #contact-form input.submit-button {
 	width: 300px;
-	height: 20px;
+	height: 30px;
 	margin-left: 100px;
 	background-color: #35898E;
 }
@@ -114,6 +118,10 @@ nav ul li {
 	width: 375px;
 	float: right;
 	margin-right: 0;
+	margin-top: 30px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
 }
 
 .info-title{
