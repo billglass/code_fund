@@ -82,9 +82,9 @@ div.mission p {
 }
 
 #newbutton {
-	display: inline-block;
-	margin: 5px 0 35px 535px;
-	
+	width: 260px;
+	margin: 0 auto;
+	border:2px solid red;
 }
 
 .mybutton {
@@ -94,7 +94,6 @@ div.mission p {
 	border-radius:28px;
 	box-shadow: 3px 3px 3px #000000;
 	display:inline-block;
-	float: left;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: "PT Sans Narrow", sans-serif;
@@ -102,6 +101,7 @@ div.mission p {
 	padding: 20px;
 	text-decoration:none;
 	text-shadow: 1px 1px 1px #000000;
+	
 }
 .mybutton:hover {
 	background-color:#35898E;
