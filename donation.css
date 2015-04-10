@@ -1,0 +1,17 @@
+nav.social_links {
+	float: left;
+	width: 40px;
+	height: 121px;
+}
+
+nav.social_links ul {
+	margin: 10px 0 16px 0;
+	padding-left: 0;
+}
+
+.social_links ul li img {
+	width: 40px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
