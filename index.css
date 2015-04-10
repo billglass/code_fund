@@ -46,9 +46,9 @@ div.about {
 	width: 500px;
 	height: 615px;
 	border-radius: 25px;
-	background-color: white;
 	margin: 30px auto 0 auto;
 	padding: 1em;
+	background:rgba(255,255,255, 0.6);
 }
 
 .about h4 {
