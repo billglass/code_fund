@@ -1,29 +1,28 @@
-body {
-	margin: 0;
+/*body {
 	font-family: 'Economica', sans-serif;
 	width: 1300px;
 	background-color: #FDAB74;
-}
+}*/
 
-
-.logo {
+/*.logo {
 	font-family: 'Economica', sans-serif;
-}
+	margin-top: -80px;
+}*/
 
-header {
+/*header {
 	background-color: #35898E;
 	padding-left: 200px;
 	float: left;
 	margin-top: 30px;
 	width: 100%;
 	box-shadow: 4px 4px 4px #1D4A4C;
-}
+}*/
 
-header img {
+/*header img {
 	padding-top: 7px;
-}
+}*/
 
-nav {
+/*nav {
 	text-align: center;
 }
 
@@ -40,27 +39,33 @@ nav ul li {
 	font-weight: bold;
 	font-size: 25px;
 	text-shadow: .75px .75px .75px #000;
-}
+}*/
 
 #contents{
 	width: 1000px;
-	margin-top: 10px;
-	margin-left: 250px;
+	margin: 50px auto 0 auto;
 }
 
+#top-contents{
+	width: 1000px;
+	margin-top: 50px;
+
+}
 .topimg{
 	width: 1000px;
 	height:200px;
-	background-image: url("./images/volunteer.png");
+	background-image: url("images/volunteer.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	box-shadow: 10px 10px 5px #888888;
-	margin-top: 10px;
+	margin-top: 70px;
 	margin-left: 10px;
 	border-radius: 5px;
 }
-.topmessage{
 
+.topmessage{
+	width: 1000px;
+	margin: 50px auto 0 auto;
 	font-size: 25px;
 	line-height: 30px;
 	background-color: white;
@@ -74,16 +79,15 @@ nav ul li {
 	text-shadow: 2px 2px #E5E4E2;
 	font-size: 80px;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 68px;
 
 }
 
 
-
 #contact-form {
 	width: 500px;
-	margin-top: 10px;
-	margin-left: 100px;
+	margin-top: 50px;
+	margin-left: 30px;
 	float: left;
 
 }
@@ -109,16 +113,22 @@ nav ul li {
 
 #contact-form input.submit-button {
 	width: 300px;
-	height: 30px;
+	height: 50px;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
 	margin-left: 100px;
-	background-color: #35898E;
+	margin-bottom: 40px;
+	background-color: #FF0000 ;
+	color:#ffffff;
+	font-size: 20px;
+	box-shadow: 3px 3px 3px #000000;
 }
 
 #contact-info{
 	width: 375px;
 	float: right;
 	margin-right: 0;
-	margin-top: 35px;
+	margin-top: 70px;
 	background-color: white;
 	border-radius: 5px;
 	padding: 10px;
@@ -132,7 +142,7 @@ nav ul li {
 
 }
 #contact-info p{
-	padding-top: 5px;
+	padding-top: 10px;
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -150,6 +160,19 @@ nav ul li {
 #social-media img{
 	margin-top: 20px;
 }
+
+.footer {
+	clear: both;
+}
+
+a.menu{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.menu:hover{
+	background-color: #FFFFFF;
+	color: #35898E;
+}
 /*labe
 	float: left;
 	text-align: right;
@@ -157,4 +180,4 @@ nav ul li {
 	width: 100px;
 	padding-top: 5px;
 	font-size: 1.4em;
-}*/
+}

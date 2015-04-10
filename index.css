@@ -1,0 +1,116 @@
+body {
+	/*margin: 0;*/
+	background-color: #FDAB74;
+}
+
+.logo {
+	font-family: 'Economica', sans-serif;
+}
+
+header {
+	background-color: #35898E;
+	padding-left: 200px;
+	margin-top: 30px;
+	box-shadow: 4px 4px 4px #1D4A4C;
+}
+
+header img {
+	padding-top: 7px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	margin-top: -20px;
+	margin-left: 400px;
+	padding-bottom: 5px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: .75px .75px .75px #000;
+}
+
+.clear {
+	clear: both;
+}
+
+div.about {
+	width: 500px;
+	height: 615px;
+	border-radius: 25px;
+	margin: 30px auto 0 auto;
+	padding: 1em;
+	background:rgba(255,255,255, 0.6);
+}
+
+.about h4 {
+	text-align: center;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 2.2em;
+}
+
+.about p {
+	font-family: "PT Sans Narrow", sans-serif;
+	letter-spacing: .65px;
+	text-indent: 25px;
+}
+
+div.mission {
+	display: inline-block;
+	float: left;
+	font-family: "PT Sans Narrow", sans-serif;
+	text-align: center;
+	font-size: 3em; 
+	width: 500px;
+	margin-left: 420px;
+}
+
+#newbutton {
+	display: inline-block;
+	margin: 5px 0 35px 535px;
+	
+}
+
+.mybutton {
+	background-color:#FF0000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	box-shadow: 3px 3px 3px #000000;
+	display:inline-block;
+	float: left;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #000000;
+}
+.mybutton:hover {
+	background-color:#35898E;
+}
+
+footer {	
+	background-color: #35898E;
+	height: 75px;
+	padding-left: 200px;
+	margin-top: 30px;
+	box-shadow: 4px 4px 4px #1D4A4C;
+	font-family: "PT Sans Narrow", sans-serif;
+	color: #FFFFFF;
+}
+
+.footer p {
+	margin-left: 387px;
+	padding-top: 25px;
+}
+
