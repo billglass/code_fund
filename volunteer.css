@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	font-family: 'Economica', sans-serif;
+	width: 1300px;
+}
+
+
+.logo {
+	font-family: 'Economica', sans-serif;
+}
+
+header {
+	background-color: #35898E;
+	padding-left: 200px;
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+	box-shadow: 4px 4px 4px #1D4A4C;
+}
+
+header img {
+	padding-top: 7px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	margin-top: -20px;
+	margin-left: 400px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: .75px .75px .75px #000;
+}
+
+#contents{
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: 250px;
+}
+
+.topimg{
+	width: 1000px;
+	height:200px;
+	background-image: url("./images/volunteer.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.title{
+	color: #2B3856;
+	text-shadow: 2px 2px #E5E4E2;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+#contact-area {
+	width: 500px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
