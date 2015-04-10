@@ -3,7 +3,7 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="donation.css">
 	<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
 	<title>#C.O.D.E FUN(d)</title>
@@ -27,51 +27,58 @@
 			<li><a href="https://www.instagram.com/"><img src="images/instagram_logo.png"></a></li>
 		</ul>
 	</nav>
-	<article>
-		<p class="donate">Donate today and help us in our mission to help underprivileged children one step closer to a bright future.  Any amount you donate will help a child one step closer to their dream.
-		</p>
-	
-		<div class="paychoice">
-			<p>What type of credit card would you like to use?</p>
-			<select name="creditcard">
-				<option value="none">--Select One--</option>
-				<option value="amex">Amex</option>
-				<option value="visa">Visa</option>
-				<option value="master">Master</option>
-				<option value="discover">Discover</option>
-			</select>
 
-			<p>
-				Credit Card #:
-				<input type="text" name="card_number" size="30" maxlength="16">
-			</p>
-
-			<p class="exp_date">
-				Exp. Date:
-				<input type="text" name="date" size="5" maxlength="2">/<input type="text" name="date" size="5" maxlength="2">
-			</p>
-
-			<p> 
-				Address:
-				<input type="text" name="address" size="30">
-				Apt #: 
-				<input type="text" name="apt" size="4">
-			</p>
-			
-			<p>
-				Town:
-				<input type="text" name="town" size="15">
-				State:
-				<input type="text" name="address" size="2" maxlength="2">
-				Zip Code: 
-				<input type="text" name="zipcode" size="10" maxlength="5">
+	<div class="about">
+		<article>
+			<p class="donate">Donate today and help us in our mission to help underprivileged children one step closer to a bright future.  Any amount you donate will help a child one step closer to their dream.
 			</p>
 		
-			<input type="submit" name="donate" value="Donate!"> 
-		</div>
+			<div class="paychoice">
+				<p>What type of credit card would you like to use?</p>
+				<select name="creditcard">
+					<option value="none">--Select One--</option>
+					<option value="amex">Amex</option>
+					<option value="visa">Visa</option>
+					<option value="master">Master</option>
+					<option value="discover">Discover</option>
+				</select>
 
-	</article>
+				<p>
+					Credit Card #:
+					<input type="text" name="card_number" size="30" maxlength="16">
+				</p>
 
+				<p class="exp_date">
+					Exp. Date:
+					<input type="text" name="date" size="5" maxlength="2">/<input type="text" name="date" size="5" maxlength="2">
+				</p>
+
+				<p> 
+					Address:
+					<input type="text" name="address" size="30">
+					Apt #: 
+					<input type="text" name="apt" size="4">
+				</p>
+				
+				<p>
+					Town:
+					<input type="text" name="town" size="15">
+					State:
+					<input type="text" name="address" size="2" maxlength="2">
+					Zip Code: 
+					<input type="text" name="zipcode" size="10" maxlength="5">
+				</p>
+
+				<input type="submit" name="donate" value="Donate!" class="submit"> 
+			</div>
+
+		</article>
+	</div>
+	<div class="footer">
+		<footer>
+			<p>&copy Yi Ren, Mai Tomokashi, and Bill Glass</p>
+		</footer>
+	</div>
 	<br class="clear">
 </body>
 

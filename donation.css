@@ -1,7 +1,13 @@
 article {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto;	
 	/*clear: left;*/
+}
+
+.about p {
+	font-family: "PT Sans Narrow", sans-serif;
+	letter-spacing: .65px;
+	text-indent: 25px;
 }
 
 nav.social_links {
@@ -18,12 +24,34 @@ nav.social_links ul {
 .social_links ul li img {
 	position: fixed;
 	width: 40px;
-	padding-left: 20px;
-	padding-bottom: 10px;
+}
+
+.social_links ul li {
+	margin-top: 50px;
 }
 
 div.paychoice {
 	width: 500px;
 	margin: 0 auto;
 	padding-top: 100px;
+
 }
+
+ div.paychoice p {
+ 	text-indent: 0px;
+ }
+
+ input.submit {
+ 	width: 200px;
+ 	border: 2px solid black;
+ 	height: 70px;
+ 	border-radius: 28px;
+ 	background-color: #FF0000;
+ 	font-size: 30px;
+ 	text-shadow: 1px 1px 1px #000000;
+ 	font-family: "PT Sans Narrow", sans-serif;
+ 	color: #ffffff;
+ 	text-shadow: 1px 1px 1px #000000;
+ 	box-shadow: 3px 3px 3px #000000;
+ 	margin-top: 30px;
+ }

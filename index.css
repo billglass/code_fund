@@ -42,14 +42,12 @@ nav ul li {
 	clear: both;
 }
 
-.about {
-	float: left;
+div.about {
 	width: 500px;
 	height: 615px;
 	border-radius: 25px;
 	background-color: white;
-	margin-top: 25px;
-	margin-left: 444px;
+	margin: 30px auto 0 auto;
 	padding: 1em;
 }
 
@@ -65,21 +63,20 @@ nav ul li {
 	text-indent: 25px;
 }
 
-.mission {
+div.mission {
 	display: inline-block;
 	float: left;
 	font-family: "PT Sans Narrow", sans-serif;
 	text-align: center;
 	font-size: 3em; 
 	width: 500px;
-	margin-left: 450px;
+	margin-left: 420px;
 }
 
 #newbutton {
 	display: inline-block;
-	margin-top: 5px;
-	margin-left: 560px;
-	margin-bottom: 35px;
+	margin: 5px 0 35px 535px;
+	
 }
 
 .mybutton {
