@@ -20,7 +20,7 @@
 	border-radius: 5px;
 }
 
-.topmessage{
+/*.topmessage{
 	width: 1000px;
 	margin: 50px auto 0 auto;
 	font-size: 25px;
@@ -30,7 +30,7 @@
 	padding: 10px;
 
 }
-
+*/
 .title{
 	color: #2B3856;
 	text-shadow: 2px 2px #E5E4E2;
@@ -118,7 +118,7 @@
 	margin-top: 20px;
 }
 
-.footer {
+.foot {
 	clear: both;
 }
 
