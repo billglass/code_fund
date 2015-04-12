@@ -7,6 +7,10 @@ article p.donate {
 	text-indent: 0;
 }
 
+ .thank_you {
+ 	width: 500px;
+ }
+ 
 .about p {
 	font-family: "PT Sans Narrow", sans-serif;
 	letter-spacing: .65px;
