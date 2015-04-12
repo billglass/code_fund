@@ -3,7 +3,6 @@
 
 <html>
 <head>
-
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="donation.css">
 	<link rel="stylesheet" type="text/css" href="volunteer.css">
@@ -33,46 +32,73 @@
 
 	<div class="about">
 		<article>
-			<p class="donate">Donate today and help us in our mission to help underprivileged children one step closer to a bright future.  Any amount you donate will help a child one step closer to their dream.
+			<p class="donate">Donate today and join us in our mission to help underprivileged children one step closer to a brighter future.  Your dollars WILL make a difference. 
 			</p>
 		
 			<div class="paychoice">
-				<p>What type of credit card would you like to use?</p>
-				<select name="creditcard">
-					<option value="none">--Select One--</option>
-					<option value="amex">Amex</option>
-					<option value="visa">Visa</option>
-					<option value="master">Master</option>
-					<option value="discover">Discover</option>
-				</select>
+				<h3>Address Info:</h3>
+				<form>	
+					<p>
+						First Name:
+						<input type="text" name="first_name" size="10">
+						Last Name:
+						<input type="text" name="last_name" size="10">					
+					</p>
+					<p>
+						Company Name:
+						<input type="text" name="company_name" size="30"> <br>
+						Email:
+						<input type="email" name="email" size="30"> 
+					</p>
 
-				<p>
-					Credit Card #:
-					<input type="text" name="card_number" size="30" maxlength="16">
-				</p>
+					<p> 
+						Address:
+						<input type="text" name="address" size="30">
+						Apt #: 
+						<input type="text" name="apt" size="4"> <br>				
+						City:
+						<input type="text" name="city" size="15">
+						State:
+						<input type="text" name="address" size="2" maxlength="2">
+						Zip Code: 
+						<input type="text" name="zipcode" size="10" maxlength="5">
+					</p>
+				</form>
 
-				<p class="exp_date">
-					Exp. Date:
-					<input type="text" name="date" size="5" maxlength="2">/<input type="text" name="date" size="5" maxlength="2">
-				</p>
+				<h3>Donation Amount:</h3>
+				<form>
+					<input type="radio" name="donate" value="ten"> $10 <br>
+					<input type="radio" name="donate" value="twenty"> $20 <br>
+					<input type="radio" name="donate" value="fifty"> $50 <br>
+					<input type="radio" name="donate" value="one_hundred"> $100 <br>
+					<input type="radio" name="donate" value="five_hundred"> $500 <br>
+					<input type="radio" name="donate" value="other"> Other: 
+					<input type="text" name="donate" size="10">
+				</form>
 
-				<p> 
-					Address:
-					<input type="text" name="address" size="30">
-					Apt #: 
-					<input type="text" name="apt" size="4">
-				</p>
-				
-				<p>
-					Town:
-					<input type="text" name="town" size="15">
-					State:
-					<input type="text" name="address" size="2" maxlength="2">
-					Zip Code: 
-					<input type="text" name="zipcode" size="10" maxlength="5">
-				</p>
-
+				<h3>Credit Card Info:</h3>
+				<form>
+					<p>What type of credit card would you like to use?</p>
+					<select name="creditcard">
+						<option value="none">--Select One--</option>
+						<option value="amex">Amex</option>
+						<option value="visa">Visa</option>
+						<option value="master">Master</option>
+						<option value="discover">Discover</option>
+					</select>
+					<p>
+						Credit Card #:
+						<input type="text" name="card_number" size="30" maxlength="16">					
+						<br>
+						Exp. Date:
+						<input type="text" name="date" size="5" maxlength="2">/<input type="text" name="date" size="5" maxlength="2">
+				<!-- 		<br> -->
+						Security Code:
+						<input type="text" name="sec_code" size="5" maxlength="2">
+					</p>
+				</form>
 				<input type="submit" name="donate" value="Donate!" class="submit"> 
+				<!-- </form> -->
 			</div>
 		</article>
 	</div>
@@ -81,7 +107,6 @@
 			<p>&copy Yi Ren, Mai Tomokashi, and Bill Glass</p>
 		</footer>
 	</div>
-	<!-- <br class="clear"> -->
 </body>
 
 </html>
