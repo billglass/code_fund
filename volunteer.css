@@ -20,17 +20,13 @@
 	border-radius: 5px;
 }
 
-/*.topmessage{
-	width: 1000px;
+.topmessage{
+	width: 900px;
 	margin: 50px auto 0 auto;
 	font-size: 25px;
 	line-height: 30px;
-	background-color: white;
-	border-radius: 5px;
-	padding: 10px;
-
 }
-*/
+
 .title{
 	color: #2B3856;
 	text-shadow: 2px 2px #E5E4E2;
@@ -84,8 +80,8 @@
 #contact-info{
 	width: 375px;
 	float: right;
-	margin-right: 0;
-	margin-top: 95px;
+	margin: 95px 25px 0 0;
+/*	margin-top: 95px;*/
 	background-color: white;
 	border-radius: 5px;
 	padding: 10px;
@@ -135,4 +131,8 @@ div.volunteer {
 	margin: 30px auto 0 auto;
 	padding: 1em;
 	background:rgba(255,255,255, 0.6);
+}
+
+div.form p {
+	font-family: "PT Sans Narrow", sans-serif;
 }
