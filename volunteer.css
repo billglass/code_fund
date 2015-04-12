@@ -85,7 +85,7 @@
 	width: 375px;
 	float: right;
 	margin-right: 0;
-	margin-top: 70px;
+	margin-top: 95px;
 	background-color: white;
 	border-radius: 5px;
 	padding: 10px;
@@ -118,9 +118,6 @@
 	margin-top: 20px;
 }
 
-.foot {
-	clear: both;
-}
 
 a.menu{
 	text-decoration: none;
@@ -130,4 +127,12 @@ a.menu{
 a.menu:hover{
 	background-color: #FFFFFF;
 	color: #35898E;
+}
+
+div.volunteer {
+	font-family: "PT Sans Narrow", sans-serif;
+	border-radius: 25px;
+	margin: 30px auto 0 auto;
+	padding: 1em;
+	background:rgba(255,255,255, 0.6);
 }
