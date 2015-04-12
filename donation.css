@@ -1,9 +1,16 @@
 article {
 	width: 80%;
-	margin: 0 auto;	
-	/*clear: left;*/
+	margin: 0 auto;		
 }
 
+article p.donate {
+	text-indent: 0;
+}
+
+ .thank_you {
+ 	width: 500px;
+ }
+ 
 .about p {
 	font-family: "PT Sans Narrow", sans-serif;
 	letter-spacing: .65px;
@@ -31,9 +38,9 @@ nav.social_links ul {
 }
 
 div.paychoice {
-	width: 500px;
+	width: 400px;
+	/*border: 2px solid black;*/
 	margin: 0 auto;
-	padding-top: 100px;
 
 }
 
@@ -48,14 +55,18 @@ div.paychoice {
  	border-radius: 28px;
  	background-color: #FF0000;
  	font-size: 30px;
- 	text-shadow: 1px 1px 1px #000000;
  	font-family: "PT Sans Narrow", sans-serif;
  	color: #ffffff;
  	text-shadow: 1px 1px 1px #000000;
  	box-shadow: 3px 3px 3px #000000;
- 	margin-top: 30px;
+ 	margin: 30px 100px 0 100px;
  }
 
  .clear {
  	clear: both;
+ }
+
+ .current_page {
+ 	background-color: #FFFFFF;
+	color: #35898E;
  }
