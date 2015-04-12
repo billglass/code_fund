@@ -3,23 +3,27 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="donation.css">
+	<link rel="stylesheet" type="text/css" href="volunteer.css">
 	<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
 	<title>#C.O.D.E FUN(d)</title>
 </head>
 
 <body>
 	<header class="logo">
-		<img src="images/Logo.png">
-		<nav>
-			<ul>
-				<li>HOME</li>
-				<li>DONATE</li>
-				<li>VOLUNTEER</li>
-			</ul>
-		</nav>
-	</header>
+		<div>
+			<h1>#C.O.D.E</h1>
+			<h2>FUN(d) | <span>Coding Offers Diverse Experiences Fund</span></h2>
+			<nav>
+				<ul>
+					<li><a class="menu" href="index.html">HOME</a></li>
+					<li><a class="menu" href="donation.html">DONATE</a></li>
+					<li><a class="current_page" href="contact.html">VOLUNTEER</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>	
 	<nav class="social_links">
 		<ul>
 			<li><a href="https://www.facebook.com/"><img src="images/facebook_logo.png"></a></li>
@@ -27,7 +31,64 @@
 			<li><a href="https://www.instagram.com/"><img src="images/instagram_logo.png"></a></li>
 		</ul>
 	</nav>
-	<br class="clear">
+	<div id="contents">
+		<div class="topimg">
+			<p class="title">Let's work together!</p>
+		</div><!--topimg-->
+
+		<div class="volunteer">
+			<p class="topmessage">Join us in our voyage to bring a brighter future for the next generation! With your generosity, you can help us achieve one step closer to our goal. There is no contribution too small, no idea not worth sharing, no skill unused - together we can make a difference!!</p>
+		
+
+			<div id="contact-form">
+				<form>
+					<p style="font-size: 20px">Name:
+						<input type="text" name="name" size="15" maxlength="30" />
+					</p>
+					<p style="font-size: 20px">Email:
+						<input type="text" name="email" size="25" />
+					</p>
+					<p style="font-size: 20px">Phone Number:
+						<input type="text" name="email" size="12" maxlength="12" />
+					</p>
+					<p style="font-size: 20px">Subject:
+					<select name="subject">
+							<option value="online">Inquiry</option>
+							<option value="friend">About our site</option>
+							<option value="other">Other</option>
+					</select>
+				<form>		
+					<textarea name="message" cols="20" rows="8">Enter your messages</textarea>
+				</form>
+				<form>
+					<input  class="submit-button" type="submit" value="submit" />
+				</form>
+				</form>
+			</div><!--contact-form-->
+
+			<div id="contact-info">
+			 	<p class="info-title">Mailing Address for all Correspondence and Donations:</p>
+					<p>
+					<strong>#C.O.D.E fun(d)</strong>
+					<br>
+					90 John Street, Suite 404
+					<br>
+					New York, NY 10038
+					</p>
+				<p class="info-title">Contacting Us by Phone:</p>
+					<p>Local Eastern Time Mon-Fri, 9am-5pm
+					<br>
+					1-800-000-0000
+					</p>
+			</div><!--contact-info-->
+			<br class="clear">
+		</div>
+	</div>
+	<div class="footer">
+		<footer>
+				<p>&copy Yi Ren, Mai Tomokashi, and Bill Glass</p>
+		</footer>
+	</div>
 </body>
 
 </html>

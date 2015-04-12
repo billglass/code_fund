@@ -1,0 +1,137 @@
+#contents{
+	width: 1000px;
+	margin: 50px auto 0 auto;
+}
+
+#top-contents{
+	width: 1000px;
+	margin-top: 50px;
+
+}
+.topimg{
+	width: 1000px;
+	height:200px;
+	background-image: url("images/volunteer.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	box-shadow: 10px 10px 5px #888888;
+	margin-top: 70px;
+	border-radius: 5px;
+}
+
+.topmessage{
+	width: 900px;
+	margin: 50px auto 0 auto;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.title{
+	color: #2B3856;
+	text-shadow: 2px 2px #E5E4E2;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 68px;
+
+}
+
+
+#contact-form {
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 30px;
+	float: left;
+
+}
+
+#contact-form input, #contact-form textarea {
+	padding: 5px;
+	width: 471px;
+	height: 30px;
+	font-family: 'Economica', sans-serif;
+	font-size: 14px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-form textarea {
+	height: 100px;
+	margin-top: 10px;
+}
+
+#contact-form textarea:focus, #contact-from input:focus {
+	border: 2px solid #900;
+}
+
+#contact-form input.submit-button {
+	width: 300px;
+	height: 50px;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	background-color: #FF0000 ;
+	color:#ffffff;
+	font-size: 20px;
+	box-shadow: 3px 3px 3px #000000;
+}
+
+#contact-info{
+	width: 375px;
+	float: right;
+	margin: 95px 25px 0 0;
+/*	margin-top: 95px;*/
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.info-title{
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px #E5E4E2;
+	color: #0C090A;
+
+}
+#contact-info p{
+	padding-top: 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+#social-media{
+	display: block;
+	width: 50px;
+	padding-top: 20px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+	position: fixed;
+
+}
+
+#social-media img{
+	margin-top: 20px;
+}
+
+
+a.menu{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.menu:hover{
+	background-color: #FFFFFF;
+	color: #35898E;
+}
+
+div.volunteer {
+	font-family: "PT Sans Narrow", sans-serif;
+	border-radius: 25px;
+	margin: 30px auto 0 auto;
+	padding: 1em;
+	background:rgba(255,255,255, 0.6);
+}
+
+div.form p {
+	font-family: "PT Sans Narrow", sans-serif;
+}
