@@ -59,3 +59,8 @@ div.paychoice {
  .clear {
  	clear: both;
  }
+
+ .current_page {
+ 	background-color: #FFFFFF;
+	color: #35898E;
+ }
