@@ -1,5 +1,5 @@
 body.index {
-	background-image: url(techteaching.jpg);
+	background-image: url(images/techteaching.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: #FDAB74;
@@ -12,14 +12,12 @@ body {
 header div {
 	max-width: 1000px;
 	margin: 0 auto;
-
 }
 
 .logo {
 	font-family: 'Economica', sans-serif;
 	color: #FFF;
 }
-
 
 .logo h1{
 	font-size: 45px;
@@ -172,8 +170,8 @@ div.content {
 	padding: 20px;
 	text-decoration:none;
 	text-shadow: 1px 1px 1px #000000;
-	
 }
+
 .mybutton:hover {
 	background-color:#35898E;
 }
